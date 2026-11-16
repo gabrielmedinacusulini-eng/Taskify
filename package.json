@@ -1,0 +1,9 @@
+{
+  "name": "taskify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Taskify: lista de tarefas em forma de recibo, com contas, grupos e amigos",
+  "scripts": { "start": "node server.mjs", "testar-email": "node server.mjs --test-email" },
+  "engines": { "node": ">=22.5" }
+}
